@@ -1,2 +1,2 @@
 # SearchCovidByProvince
-I try to create a searching Covid-19 static website and I'll put it into my school project.
+This repository is created for my school project for searching covid-19 static in the selected province. :pushpin:
