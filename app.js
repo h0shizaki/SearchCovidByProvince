@@ -25,12 +25,12 @@ function display(index){
     .then(result => {
         text = `<div class='text-header'> ${result[index]['province']} </div> 
         <div class='text-case'>
-            New case : ${result[index]['new_case']}      
-            Total case : ${result[index]['total_case']}
+            <p>New case : ${result[index]['new_case']}</p>
+            <p>Total case : ${result[index]['total_case']}</p>
         </div>
         <div class='text-death'>
-            New death: ${result[index]['new_death']}      
-            Total death: ${result[index]['total_death']}
+            <p>New death: ${result[index]['new_death']}</p> 
+            <p>Total death: ${result[index]['total_death']}</p>
         </div>
         <div class = 'text-date'>
             Update date : ${result[index]['update_date']}
