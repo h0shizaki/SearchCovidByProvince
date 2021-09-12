@@ -4,10 +4,54 @@
 body {
     margin: 0;
     text-align: center;
+    background-color: cyan;
+}
+select {
+    font-size: 1rem;
+    border: 0.05rem solid black;
+    border-radius: 5rem;
+}
+select:focus{
+    outline: none;
+}
+.submit {
+    border: 0.05rem solid black;
+    font-size: 1rem;
+    margin-left:5px ;
+    border-radius: 35px;
 }
 
 .container {
     margin-top:5%;
-    text-align: center;
+    margin-left: 25%;
+    width: 60%;
+    max-width: 75%;
+    height: 300px;
+    max-height: 500px;
     font-size: 1.5rem;
+    border: 0.25rem solid rgb(6, 19, 48);
+    background-color: white;
+    
+}
+.form{
+    margin-top:1%;
+    text-align: center;
+}
+.text-header{
+    margin-top: 2%;
+    margin-bottom:5% ;
+    font-size: 2.0rem;
+}
+
+.text-case , .text-death{
+    text-align: left;
+    margin-left:5% ;
+}
+
+
+.text-date{
+    float:right;
+    margin-right: 5%;
+    margin-top:1rem;
+    font-size: 1rem;
 }

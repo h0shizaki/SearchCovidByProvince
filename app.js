@@ -23,7 +23,7 @@ function display(index){
     const textResult = document.querySelector('#textResult');
     fetch(apiURL).then(response => response.json())
     .then(result => {
-        text = `<h2 class='text-header'> ${result[index]['province']} </h2> 
+        text = `<div class='text-header'> ${result[index]['province']} </div> 
         <div class='text-case'>
             New case : ${result[index]['new_case']}      
             Total case : ${result[index]['total_case']}
